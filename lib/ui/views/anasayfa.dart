@@ -44,7 +44,7 @@ class _AnasayfaState extends State<Anasayfa> {
               setState(() {
                 if(aramaYapiliyorMu){
                   aramaYapiliyorMu = false;
-                  tfAra.text = "";
+                  tfAra.text = " ";
                   context.read<AnasayfaCubit>().kisileriYukle();
                 }
                 else{
